@@ -29,8 +29,8 @@ This repository contains all the source code and final reports for the final yea
 - Liya Jacob (U2203134)
 
 **Guide:** Dr. Jincy J. Fernandez
-##
 
+---
 ### Group 7
 **Project:** [SEISMICO: Seismic Monitoring using Distributed Acoustic Sensing]([GROUP-7-Seismic-Monitoring-using-Distributive-Acoustic-Sensing](https://github.com/RSET-CSE-DEPARTMENT/RSET2022-26-S8-Beta/tree/2b00c3013b4f4f00d280e11fa0cb52436fc453a2/GROUP-7-Seismic-Monitoring-using-Distributive-Acoustic-Sensing))
 **Members:**
@@ -40,6 +40,7 @@ This repository contains all the source code and final reports for the final yea
 - Johan B. Agustine (U2203119)
 
 **Guide:** Dr. Amitha Mathew
+
 ---
 ### Group 15
 **Project:** [Corporate Email Summarization and Task Extraction](https://github.com/RSET-CSE-DEPARTMENT/RSET2022-26-S8-Beta/tree/main/Group%2015%20Corporate%20Email%20Summarization%20and%20Task%20Extraction)
