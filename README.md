@@ -8,7 +8,7 @@ This repository contains all the source code and final reports for the final yea
 
 ### Group 2
 
-*Project:* [Corporate Device Control Suite](https://github.com/GeorgeET15/RSET2022-26-S8-Beta/tree/main/Group%202%20Corporate%20Device%20Control%20Suite)
+*Project:* [Corporate Device Control Suite](https://github.com/RSET-CSE-DEPARTMENT/RSET2022-26-S8-Beta/tree/main/Group%202%20Corporate%20Device%20Control%20Suite)
 *Members:*
 
 - Muhammed S. Suhail (U2203144)
