@@ -28,7 +28,7 @@ This repository contains all the source code and final reports for the final yea
 - Johaan P Varghese(U2203118)
 - Maria Thomas Manavalan (U2203137)
 - John S Kakkassery (U2203120)
-- Glenda Pinhero (U2203010)
+- Glenda Pinhero (U22030100)
 
 *Guide:* Ms. Mehbooba P Shareef
 
@@ -55,7 +55,6 @@ This repository contains all the source code and final reports for the final yea
 
 **Guide:** Dr. Amitha Mathew
 
----
 ### Group 8
 **Project:** [Ransomware Detection System](https://github.com/gjh70/RSET2022-26-S8-Beta/tree/main/Group%208%20Ransomware%20Detection%20System)
 **Members:**
@@ -78,16 +77,16 @@ This repository contains all the source code and final reports for the final yea
 **Guide:** Ms. Jisha Mary Jose
 
 ---
-
-### Group 11
-**Project:** [QuietSOS-Fall Detection and Alerting System](https://github.com/RSET-CSE-DEPARTMENT/RSET2022-26-S8-Beta/tree/main/GROUP%2011%20QUIETSOS%20FALL%20DETECTION%20AND%20ALERTING%20SYSTEM)
+### Group 14
+**Project:** [Group 14 virtual try on for accessory](https://github.com/RSET-CSE-DEPARTMENT/RSET2022-26-S8-Beta/tree/main/Group%2010%20Silent%20Speech%20Recognition)
 **Members:**
-- Gokul Raj (U2203101)
-- Irene Ajith (U2203105)
-- Jefry Joseph (U2203111)
-- Jesel Gibi George (U2203112)
+- Dominic Linson (U2203083)
+- Devanjana S puthalath (U2203078) 
+- Eesha Ajith (U2203086)
+- Gourinanda A G (U2203103)
 
-**Guide:** Ms. Ann Grace Attokaren
+**Guide:** Ms. Dincy Paul
+
 
 ---
 ### Group 15

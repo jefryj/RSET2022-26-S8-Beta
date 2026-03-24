@@ -1,0 +1,291 @@
+
+.landing-page-wrapper {
+  --bg: linear-gradient(160deg, #020024 0%, #0d0529 50%, #260b88 100%);
+  --violet-dark: #20765b;
+  --violet-mid: #18d5b6;
+  --violet-light: #A682FF;
+  --text: #ffffff;
+  --text-dim: rgba(255,255,255,0.85);
+  --card-bg: rgba(255,255,255,0.06);
+  --border: rgba(255,255,255,0.12);
+
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, "Helvetica Neue", Arial;
+  color: var(--text);
+  background: var(--bg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.landing-page-wrapper a { color: inherit; text-decoration: none; }
+
+.landing-page-wrapper .container {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.landing-page-wrapper header {
+  position: sticky;
+  top: 0;
+  backdrop-filter: saturate(140%) blur(8px);
+  background: rgba(0, 0, 0, 0.25);
+  border-bottom: 1px solid var(--border);
+  z-index: 10;
+}
+
+.landing-page-wrapper .nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+}
+
+.landing-page-wrapper .brand {
+  font-weight: 700;
+  letter-spacing: 0.4px;
+}
+
+.landing-page-wrapper .nav-links {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.landing-page-wrapper .nav-link {
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.landing-page-wrapper .nav-link:hover { background: rgba(255,255,255,0.08); }
+
+.landing-page-wrapper .btn-nav {
+  background: linear-gradient(160deg, var(--violet-mid), var(--violet-dark));
+  color: var(--text);
+  font-weight: 600;
+  padding: 10px 16px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+  transition: all 0.2s ease;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.landing-page-wrapper .btn-nav:hover {
+  transform: translateY(-1px);
+  opacity: 0.95;
+}
+
+.landing-page-wrapper .hero {
+  flex: 1;
+  padding: 80px 20px;
+  text-align: center;
+  background: transparent;
+}
+
+.landing-page-wrapper .hero-title {
+  font-size: clamp(2.1rem, 4.2vw, 3.2rem);
+  line-height: 1.2;
+  margin: 0 0 12px;
+}
+
+.landing-page-wrapper .hero-sub {
+  color: var(--text-dim);
+  font-size: clamp(1.05rem, 1.8vw, 1.2rem);
+  margin: 0 0 24px;
+}
+
+/* CTA section: text left, image right */
+.landing-page-wrapper section.cta {
+  padding: 60px 0;
+  background: transparent;
+}
+
+.landing-page-wrapper .cta-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.landing-page-wrapper .cta-text {
+  flex: 1;
+  text-align: left;
+  max-width: 550px;
+}
+
+.landing-page-wrapper .cta-text h2 {
+  margin: 0 0 12px;
+  font-size: 1.8rem;
+}
+
+.landing-page-wrapper .cta-text p {
+  color: var(--text-dim);
+  line-height: 1.6;
+  font-size: 1.05rem;
+}
+
+.landing-page-wrapper .cta-image {
+  flex: 1;
+  text-align: center;
+}
+
+.landing-page-wrapper .cta-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+}
+
+.landing-page-wrapper section#pre-features {
+  text-align: left;
+  padding: 60px 0;
+  background: transparent;
+}
+
+.landing-page-wrapper section#pre-features .container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.landing-page-wrapper section#pre-features h2 {
+  margin: 0 0 12px;
+  font-size: 1.8rem;
+}
+
+.landing-page-wrapper section#pre-features p {
+  margin: 0 0 20px;
+  color: var(--text-dim);
+  max-width: 700px;
+}
+
+.landing-page-wrapper section#pre-features .btn-nav {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.landing-page-wrapper .features {
+  padding: 60px 20px;
+  background: transparent;
+}
+
+.landing-page-wrapper .features-heading {
+  text-align: left;
+  margin-bottom: 32px;
+}
+
+.landing-page-wrapper .features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.landing-page-wrapper .feature {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 20px;
+  text-align: left;
+}
+
+.landing-page-wrapper .feature h3 { margin: 0 0 8px; font-size: 1.1rem; }
+.landing-page-wrapper .feature p { margin: 0; color: var(--text-dim); }
+
+.landing-page-wrapper footer {
+  border-top: 1px solid var(--border);
+  color: var(--text-dim);
+  padding: 16px 0 24px;
+  font-size: 0.95rem;
+  text-align: center;
+  background: transparent;
+}
+
+.landing-page-wrapper .about-grid {
+  display: grid; 
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); 
+  gap: 30px; 
+  margin-top: 40px;
+}
+
+.landing-page-wrapper .person h3 {
+  margin-bottom: 8px;
+}
+
+.landing-page-wrapper .person p {
+  margin: 0;
+  color: var(--text-dim);
+}
+
+/* ---------------------------------------------------
+   GLOBAL HEADING REWRITE (FIXED)
+---------------------------------------------------- */
+
+/* Default heading alignment + size for all sections EXCEPT hero */
+.landing-page-wrapper h1,
+.landing-page-wrapper h2,
+.landing-page-wrapper h3 {
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1.2;
+  margin: 20px 0;
+  text-align: left; /* default left */
+}
+
+/* HERO — larger + centered */
+.landing-page-wrapper .hero-title {
+  text-align: center !important;
+  font-size: clamp(2.3rem, 4vw, 3rem); /* LARGE */
+}
+
+.landing-page-wrapper .hero h2 {
+  text-align: center !important;
+  font-size: clamp(1.5rem, 3vw, 2rem); /* SUBHEADING */
+}
+
+/* NORMAL SECTION TITLES — REDUCED SIZE */
+.landing-page-wrapper section h2 {
+  font-size: clamp(1.4rem, 2.3vw, 1.9rem); /* smaller than hero */
+}
+
+/* PERSON NAMES, FEATURE HEADINGS — EVEN SMALLER */
+/* PERSON NAMES, FEATURE HEADINGS — SMALLER */
+.landing-page-wrapper h3 {
+  font-size: clamp(0.95rem, 1.6vw, 1.25rem);
+}
+
+
+@media (max-width: 900px) {
+  .landing-page-wrapper .cta-flex {
+    flex-direction: column;
+    text-align: center;
+  }
+  .landing-page-wrapper .cta-text {
+    text-align: center;
+    max-width: 100%;
+  }
+  .landing-page-wrapper section#pre-features .container {
+    align-items: flex-start;
+  }
+  .landing-page-wrapper section#pre-features .btn-nav {
+    position: static;
+    transform: none;
+    margin-top: 20px;
+  }
+}
+

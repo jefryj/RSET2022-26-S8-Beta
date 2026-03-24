@@ -1,0 +1,7 @@
+{
+  "name": "Virtual Try-On Studio",
+  "description": "A virtual try-on application using MediaPipe for face tracking.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
