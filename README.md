@@ -70,6 +70,8 @@ This repository contains all the source code and final reports for the final yea
 
 **Guide:** Dr. Amitha Mathew
 
+---
+
 ### Group 8
 **Project:** [Ransomware Detection System](https://github.com/gjh70/RSET2022-26-S8-Beta/tree/main/Group%208%20Ransomware%20Detection%20System)
 **Members:**
